@@ -1,0 +1,323 @@
+START
+sounds ok
+assets ok
+window ok win=1280x720 render=1280x720 dib=000000004005205e bits=0000018d7e220000
+first render ok
+frame 30 state=0 phase=0 hp=0 armor=0 money=0 enemies=0 buy=0 zoom=0 nades=0/0/0 cur=0 planted=0
+frame 60 state=0 phase=0 hp=0 armor=0 money=0 enemies=0 buy=0 zoom=0 nades=0/0/0 cur=0 planted=0
+frame 90 state=0 phase=0 hp=0 armor=0 money=0 enemies=0 buy=0 zoom=0 nades=0/0/0 cur=0 planted=0
+st startMatch + map ok
+st contact shadows under entities
+st mags 3-assault 2-sniper
+st knife kill reward $1500
+frame 120 state=1 phase=0 hp=100 armor=0 money=800 enemies=5 buy=1 zoom=0 nades=0/0/0 cur=0 planted=0
+frame 150 state=1 phase=0 hp=100 armor=0 money=10000 enemies=5 buy=1 zoom=0 nades=0/0/0 cur=0 planted=0
+st buys + kit rejected for T
+st molotov bought (nade slot 7)
+st p250 + xm1014 buyable
+st awp
+frame 180 state=1 phase=0 hp=100 armor=100 money=3150 enemies=5 buy=1 zoom=0 nades=1/1/1 cur=14 planted=0
+st render resize 960x540
+frame 210 state=1 phase=0 hp=100 armor=100 money=3150 enemies=5 buy=1 zoom=0 nades=1/1/1 cur=14 planted=0
+st render resize restored
+frame 240 state=1 phase=0 hp=100 armor=100 money=3150 enemies=5 buy=1 zoom=0 nades=1/1/1 cur=14 planted=0
+st fight
+st bullet tracers
+st shell casings eject
+st muzzle flash light
+frame 270 state=1 phase=1 hp=100 armor=100 money=3150 enemies=5 buy=0 zoom=0 nades=1/1/1 cur=14 planted=0
+frame 300 state=1 phase=1 hp=100 armor=100 money=3150 enemies=5 buy=0 zoom=0 nades=1/1/1 cur=14 planted=0
+frame 330 state=1 phase=1 hp=100 armor=100 money=3150 enemies=5 buy=0 zoom=0 nades=1/1/1 cur=14 planted=0
+st he
+frame 360 state=1 phase=1 hp=100 armor=100 money=3150 enemies=5 buy=0 zoom=0 nades=1/1/1 cur=14 planted=0
+frame 390 state=1 phase=1 hp=100 armor=100 money=3150 enemies=4 buy=0 zoom=0 nades=0/1/1 cur=14 planted=0
+st counter-strafe stops
+st directional damage indicator
+st killer name for death screen
+frame 420 state=1 phase=1 hp=96 armor=96 money=3150 enemies=3 buy=0 zoom=0 nades=0/1/1 cur=14 planted=0
+frame 450 state=1 phase=1 hp=100 armor=96 money=3150 enemies=3 buy=0 zoom=0 nades=0/1/1 cur=14 planted=0
+st pistol
+st weapon deploy animation (deployT=0.247)
+st spray pattern builds up
+frame 480 state=1 phase=1 hp=100 armor=96 money=3150 enemies=2 buy=0 zoom=0 nades=0/1/1 cur=5 planted=0
+frame 510 state=1 phase=1 hp=100 armor=96 money=3150 enemies=2 buy=0 zoom=0 nades=0/1/1 cur=5 planted=0
+frame 540 state=1 phase=1 hp=100 armor=96 money=3150 enemies=2 buy=0 zoom=0 nades=0/1/1 cur=5 planted=0
+st underhand grenade toss
+st flash
+frame 570 state=1 phase=1 hp=100 armor=96 money=3150 enemies=2 buy=0 zoom=0 nades=0/0/1 cur=5 planted=0
+frame 600 state=1 phase=1 hp=100 armor=96 money=3150 enemies=2 buy=0 zoom=0 nades=0/0/1 cur=5 planted=0
+st wallbang through the mid wall
+frame 630 state=1 phase=1 hp=100 armor=96 money=3150 enemies=2 buy=0 zoom=0 nades=0/0/1 cur=5 planted=0
+st smoke
+frame 660 state=1 phase=1 hp=100 armor=96 money=3150 enemies=2 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+frame 690 state=1 phase=1 hp=100 armor=96 money=3150 enemies=2 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+st damage+reload
+st molotov thrown
+st weapon inspect (F)
+st crouch (Ctrl)
+frame 720 state=1 phase=1 hp=82 armor=78 money=3150 enemies=2 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+st jump (Space)
+st scoreboard (Tab)
+st Q quickswitch
+frame 750 state=1 phase=1 hp=100 armor=78 money=3150 enemies=2 buy=0 zoom=0 nades=0/0/0 cur=8 planted=0
+st zoom
+st molotov fire pool burns
+st footstep cadence
+st landing thud
+frame 780 state=1 phase=1 hp=85 armor=63 money=3150 enemies=2 buy=0 zoom=1 nades=0/0/0 cur=8 planted=0
+st pause
+frame 810 state=1 phase=1 hp=91 armor=54 money=3150 enemies=2 buy=0 zoom=0 nades=0/0/0 cur=8 planted=0
+frame 840 state=1 phase=1 hp=88 armor=51 money=3150 enemies=2 buy=0 zoom=0 nades=0/0/0 cur=8 planted=0
+st round MVP award
+st round timer expiry (CT win)
+frame 870 state=1 phase=2 hp=97 armor=48 money=4850 enemies=2 buy=0 zoom=0 nades=0/0/0 cur=8 planted=0
+frame 900 state=1 phase=2 hp=97 armor=48 money=4850 enemies=2 buy=0 zoom=0 nades=0/0/0 cur=8 planted=0
+st endRound call
+st gun kept on a won round
+frame 930 state=1 phase=2 hp=100 armor=48 money=4850 enemies=2 buy=0 zoom=0 nades=0/0/0 cur=8 planted=0
+st death drops gun+kit to the floor
+st buy menu
+st buy menu closed
+st old gun drops on re-buy
+st headshot kill-feed marker
+st round damage report
+st headshot dink sound
+st blood on hit
+st bot grenade throw
+frame 960 state=1 phase=0 hp=100 armor=48 money=7200 enemies=4 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+frame 990 state=1 phase=0 hp=100 armor=48 money=7200 enemies=4 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+frame 1020 state=1 phase=0 hp=100 armor=48 money=7200 enemies=4 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+frame 1050 state=1 phase=0 hp=100 armor=48 money=7200 enemies=4 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+frame 1080 state=1 phase=0 hp=100 armor=48 money=7200 enemies=4 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+frame 1110 state=1 phase=0 hp=100 armor=48 money=7200 enemies=4 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+frame 1140 state=1 phase=0 hp=100 armor=48 money=7200 enemies=4 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+st bomb-site floor paint
+frame 1170 state=1 phase=1 hp=100 armor=48 money=7200 enemies=4 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+frame 1200 state=1 phase=1 hp=100 armor=48 money=7200 enemies=4 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+frame 1230 state=1 phase=1 hp=100 armor=48 money=7200 enemies=4 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+st bomb planted
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+frame 1260 state=1 phase=1 hp=100 armor=48 money=7500 enemies=4 buy=0 zoom=0 nades=0/0/0 cur=7 planted=1
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+frame 1290 state=1 phase=1 hp=100 armor=48 money=7500 enemies=4 buy=0 zoom=0 nades=0/0/0 cur=7 planted=1
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+frame 1320 state=1 phase=1 hp=100 armor=48 money=7500 enemies=4 buy=0 zoom=0 nades=0/0/0 cur=7 planted=1
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+st switch to CT
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+frame 1350 state=1 phase=2 hp=100 armor=48 money=10750 enemies=4 buy=0 zoom=0 nades=0/0/0 cur=7 planted=1
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+frame 1380 state=1 phase=2 hp=100 armor=48 money=10750 enemies=4 buy=0 zoom=0 nades=0/0/0 cur=7 planted=1
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+frame 1410 state=1 phase=2 hp=100 armor=48 money=10750 enemies=4 buy=0 zoom=0 nades=0/0/0 cur=7 planted=1
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+FAIL pickup swap
+st kit bought as CT
+frame 1440 state=1 phase=0 hp=100 armor=48 money=9600 enemies=5 buy=1 zoom=0 nades=0/0/0 cur=7 planted=0
+frame 1470 state=1 phase=0 hp=100 armor=48 money=9600 enemies=5 buy=1 zoom=0 nades=0/0/0 cur=7 planted=0
+frame 1500 state=1 phase=0 hp=100 armor=48 money=9600 enemies=5 buy=1 zoom=0 nades=0/0/0 cur=7 planted=0
+frame 1530 state=1 phase=0 hp=100 armor=48 money=9600 enemies=5 buy=1 zoom=0 nades=0/0/0 cur=7 planted=0
+frame 1560 state=1 phase=0 hp=100 armor=48 money=9600 enemies=5 buy=1 zoom=0 nades=0/0/0 cur=7 planted=0
+frame 1590 state=1 phase=0 hp=100 armor=48 money=9600 enemies=5 buy=1 zoom=0 nades=0/0/0 cur=7 planted=0
+frame 1620 state=1 phase=1 hp=100 armor=48 money=9600 enemies=5 buy=0 zoom=0 nades=0/0/0 cur=7 planted=0
+st plant forced for defuse test
+st planted C4 object drawn
+frame 1650 state=1 phase=1 hp=100 armor=48 money=9600 enemies=5 buy=0 zoom=0 nades=0/0/0 cur=7 planted=1
+frame 1680 state=1 phase=1 hp=92 armor=40 money=9600 enemies=5 buy=0 zoom=0 nades=0/0/0 cur=7 planted=1
+st defused WITH KIT
+frame 1710 state=1 phase=2 hp=100 armor=0 money=13150 enemies=5 buy=0 zoom=0 nades=0/0/0 cur=7 planted=1
+frame 1740 state=1 phase=2 hp=100 armor=0 money=13150 enemies=5 buy=0 zoom=0 nades=0/0/0 cur=7 planted=1
+st match over - auto quit at 13 wins
+FAIL classic phase INCOMPLETE
+st horde phase start
+st horde init
+frame 1770 state=1 phase=0 hp=100 armor=0 money=0 enemies=0 buy=0 zoom=0 nades=0/0/0 cur=0 planted=0
+frame 1800 state=1 phase=1 hp=100 armor=0 money=0 enemies=8 buy=0 zoom=0 nades=0/0/0 cur=0 planted=0
+st horde wave spawned
+st horde infected bite damage
+frame 1830 state=1 phase=1 hp=100 armor=0 money=0 enemies=1 buy=0 zoom=0 nades=0/0/0 cur=0 planted=0
+frame 1860 state=1 phase=1 hp=100 armor=0 money=0 enemies=1 buy=0 zoom=0 nades=0/0/0 cur=0 planted=0
+frame 1890 state=1 phase=1 hp=100 armor=0 money=0 enemies=1 buy=0 zoom=0 nades=0/0/0 cur=0 planted=0
+frame 1920 state=1 phase=1 hp=100 armor=0 money=0 enemies=1 buy=0 zoom=0 nades=0/0/0 cur=0 planted=0
+st armory closed during wave
+st armory buys AK for $2700
+st flashlight battery draining
+frame 1950 state=1 phase=0 hp=100 armor=0 money=440 enemies=0 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+st wave cleared into wave 2 prep
+frame 1980 state=1 phase=0 hp=100 armor=0 money=440 enemies=0 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+st horde death -> game over screen
+frame 2010 state=1 phase=1 hp=0 armor=0 money=440 enemies=1 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+frame 2040 state=1 phase=1 hp=0 armor=0 money=440 enemies=1 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+frame 2070 state=1 phase=1 hp=0 armor=0 money=440 enemies=1 buy=0 zoom=0 nades=0/0/0 cur=5 planted=0
+st death screen restart
+frame 2100 state=1 phase=0 hp=100 armor=0 money=0 enemies=0 buy=0 zoom=0 nades=0/0/0 cur=0 planted=0
+SELFTEST INCOMPLETE
